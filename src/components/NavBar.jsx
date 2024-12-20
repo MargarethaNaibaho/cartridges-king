@@ -27,7 +27,7 @@ const NavBar = () => {
     return (
         <>
             <div className="flex flex-row items-center mx-72 mb-10">
-                <div className="w-full flex flex-rowjustify-around">
+                <div className="w-full flex flex-row justify-around">
                     {menuItems.map((item, index) => (
                         <NavBarItems key={index} textNavBar={item} />
                     ))}
